@@ -8,16 +8,16 @@ function App() {
 
   return (
     <>
-    <h1>coffee and train</h1>
-    <p>JOKES: {jokes.length}</p>
-    {
-      jokes.map((jokes, index) => {
-        <div key={jokes.id}>
-        <h3>{jokes.title}</h3>
-        <p>{jokes.content}</p>
-        </div>
-      })
-    }
+      <h1>coffee and train</h1>
+      <p>JOKES: {jokes.length}</p>
+      {
+        jokes.map((jokes, index) => {
+          <div key={jokes.id}>
+            <h3>{jokes.title}</h3>
+            <p>{jokes.content}</p>
+          </div>
+        })
+      }
     </>
   )
 }
